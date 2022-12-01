@@ -18,9 +18,8 @@ function SomarMeses(data, meses) { // retornar uma nova data com a quantidade de
         }
     }
 
-    if (mesfuturo < 10) {
+    if (mesfuturo < 10)
         mesfuturo = '0' + mesfuturo;
-    }
 
     return dia + "/" + mesfuturo + "/" + ano;
 
