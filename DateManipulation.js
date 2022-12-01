@@ -4,7 +4,7 @@ function dateToYYYYMM(fcData) {
     return fcData.substring(0, (fcData.length - 2));
 } 
 
-function SomarMeses(data, meses) {
+function SomarMeses(data, meses) { // retornar uma nova data com a quantidade de meses inserido
     data = data.split('/');
 
     var dia = parseInt(data[0], 10);
